@@ -15,6 +15,7 @@
 		ACD21C2924FAA1830083F14A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD21C2724FAA1830083F14A /* LaunchScreen.storyboard */; };
 		ACD21C3424FAA1830083F14A /* ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD21C3324FAA1830083F14A /* ShopTests.swift */; };
 		ACD21C3F24FAA1830083F14A /* ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD21C3E24FAA1830083F14A /* ShopUITests.swift */; };
+		ACD21C4D24FAA8410083F14A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD21C4C24FAA8410083F14A /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ACD21C3A24FAA1830083F14A /* ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD21C3E24FAA1830083F14A /* ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopUITests.swift; sourceTree = "<group>"; };
 		ACD21C4024FAA1830083F14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD21C4C24FAA8410083F14A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				ACD21C2724FAA1830083F14A /* LaunchScreen.storyboard */,
 				ACD21C2A24FAA1830083F14A /* Info.plist */,
 				ACD21C2424FAA1830083F14A /* Preview Content */,
+				ACD21C4C24FAA8410083F14A /* SearchView.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD21C4D24FAA8410083F14A /* SearchView.swift in Sources */,
 				ACD21C1D24FAA1810083F14A /* AppDelegate.swift in Sources */,
 				ACD21C1F24FAA1810083F14A /* SceneDelegate.swift in Sources */,
 				ACD21C2124FAA1810083F14A /* ContentView.swift in Sources */,
